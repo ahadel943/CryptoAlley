@@ -1,0 +1,82 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn {
+    padding: 5px 25px;
+    background-color: darkcyan;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover {background-color: rgb(0, 160, 160);}
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: darkcyan;
+}
+header h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.body {
+    background-color: rgba(25, 25, 25, 0.1);
+    min-height: calc(100vh - 87px);
+}
+.body .form {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+.body .form input {
+    padding: 10px;
+    border: 1px solid darkcyan;
+    border-radius: 25px;
+    width: 80%;
+    outline: none;
+    text-align: center;
+    color: darkcyan;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.body .form input::placeholder {
+    color: darkcyan;
+    font-weight: bold;
+    opacity: 0.7;
+}
+.output-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.output-content .hash-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.output-content .hash-wrap .hash {
+    min-height: 21px;
+    width: 100%;
+    word-wrap: break-word;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>CryptoAlley</title>
+</head>
+<body>
+    <header>
+        <h1>CryptoAlley</h1>
+    </header>
+    <section class="body">
+        <div class="form">
+            <input type="text" class="input" placeholder="Enter text...">
+            <span class="btn" id="clear-all">Clear All</span>
+        </div>
+        <div class="output-content">
+            <div class="hash-wrap">
+                <h3>MD-5</h3>
+                <p class="hash" data-md5-hash></p>
+            </div>
+            <div class="hash-wrap">
+                <h3>SHA-1</h3>
+                <p class="hash" data-sha1-hash></p>
+            </div>
+            <div class="hash-wrap">
+                <h3>SHA-256</h3>
+                <p class="hash" data-sha256-hash></p>
+            </div>
+            <div class="hash-wrap">
+                <h3>SHA-512</h3>
+                <p class="hash" data-sha512-hash></p>
+            </div>
+            <div class="hash-wrap">
+                <h3>SHA-3</h3>
+                <p class="hash" data-sha3-hash></p>
+            </div>
+            <div class="hash-wrap">
+                <h3>RIPEMD -160</h3>
+                <p class="hash" data-ripemd160-hash></p>
+            </div>
+        </div>
+    </section>
+    </section>
+    <script src="./js/crypto.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
